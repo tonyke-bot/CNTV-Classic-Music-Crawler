@@ -9,7 +9,7 @@
 theater.py url
 
 # Example
-    theater http://ncpa-classic.cntv.cn/2013/07/16/VIDA1373960896399814.shtml  
+    theater.py http://ncpa-classic.cntv.cn/2013/07/16/VIDA1373960896399814.shtml  
     # 这样的代码会在运行目录下产生一个文件夹，文件夹的名字为专辑的名字。
     # 在该文件夹下保存该专辑所有的音乐(码率：192Kbps)
     # 并且还有一个pickle.dat文件用来存储断点续传的信息，该文件可以删除
